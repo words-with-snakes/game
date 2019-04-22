@@ -1,5 +1,11 @@
 # Project Snakes
 
+#### Getting Started
+To launch the project:
+1. Run `npm install`
+2. Run `npm run build`
+3. Run `npm start`
+
 #### Example Objects
 
 The below are example objects for the entities in the game. These will be converted to Classes later,
