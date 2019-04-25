@@ -1,10 +1,18 @@
 # Project Snakes
 
-#### Getting Started
+## Getting Started
+### Using NPM
 To launch the project:
 1. Run `npm install`
 2. Run `npm run build`
 3. Run `npm start`
+
+### Using Docker
+To launch the project:
+1. Run `docker-compose up -d`
+
+To stop the project:
+1. Run `docker-compose down --rmi all`
 
 #### Example Objects
 
