@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./",
     "start": "nodemon server/index.js",
     "build": "rm -rf dist; mkdir dist; cp -R public/static/. dist/ && webpack -d --watch",
     "docker:build": "rm -rf dist; mkdir dist; cp -R public/static/. dist/ && webpack -d",
