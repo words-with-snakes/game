@@ -14,7 +14,7 @@ app.listen(port, () => {
   console.log(`Listening on ${port}`);
 });
 
-wss.on('connection', (ws) => {
+wss.on('connection', ws => {
   ws.on('message', sockets.clientOnMessage(ws));
   ws.send('OnConnect, from server');
 });

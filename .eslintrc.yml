@@ -4,3 +4,6 @@ env:
   node: true
 rules:
   no-console: off
+  arrow-parens:
+    - error
+    - "as-needed"
